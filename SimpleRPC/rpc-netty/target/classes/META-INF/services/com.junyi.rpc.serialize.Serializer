@@ -1,0 +1,3 @@
+com.junyi.rpc.serialize.impl.StringSerializer
+com.junyi.rpc.serialize.impl.RpcRequestSerializer
+com.junyi.rpc.serialize.impl.MetaDataSerializer

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="hello-service-api" />
+        <module name="rpc-api" />
+        <module name="rpc-netty" />
+        <module name="server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="1.8" />
+      <module name="hello-service-api" target="1.8" />
+      <module name="rpc-api" target="1.8" />
+      <module name="rpc-netty" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="SimpleRPC" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="client" options="-XDignore.symbol.file" />
+      <module name="hello-service-api" options="-XDignore.symbol.file" />
+      <module name="rpc-api" options="-XDignore.symbol.file" />
+      <module name="rpc-netty" options="-XDignore.symbol.file" />
+      <module name="server" options="-XDignore.symbol.file" />
+    </option>
+  </component>
+</project>
