@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-letter/dead-letter.iml" filepath="$PROJECT_DIR$/dead-letter/dead-letter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlx/dlx.iml" filepath="$PROJECT_DIR$/dlx/dlx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fanout-exchange/fanout-exchange.iml" filepath="$PROJECT_DIR$/fanout-exchange/fanout-exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many-comsumer/many-comsumer.iml" filepath="$PROJECT_DIR$/many-comsumer/many-comsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rabbitmq-my.iml" filepath="$PROJECT_DIR$/.idea/rabbitmq-my.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmy-comsumer/rabbitmy-comsumer.iml" filepath="$PROJECT_DIR$/rabbitmy-comsumer/rabbitmy-comsumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmy-producer/rabbitmy-producer.iml" filepath="$PROJECT_DIR$/rabbitmy-producer/rabbitmy-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-consumer/simple-consumer.iml" filepath="$PROJECT_DIR$/simple-consumer/simple-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-producer/simple-producer.iml" filepath="$PROJECT_DIR$/simple-producer/simple-producer.iml" />
     </modules>
   </component>
 </project>

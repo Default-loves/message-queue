@@ -6,24 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rabbitmy-comsumer" />
-        <module name="message" />
-        <module name="rabbitmy-producer" />
+        <module name="dlx" />
+        <module name="many-comsumer" />
+        <module name="fanout-exchange" />
+        <module name="dead-letter" />
+        <module name="simple-consumer" />
+        <module name="simple-producer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="message" target="15" />
-      <module name="rabbitmq-my" target="15" />
-      <module name="rabbitmy-comsumer" target="15" />
-      <module name="rabbitmy-producer" target="15" />
+      <module name="common" target="8" />
+      <module name="dead-letter" target="8" />
+      <module name="dlx" target="8" />
+      <module name="fanout-exchange" target="8" />
+      <module name="many-comsumer" target="8" />
+      <module name="rabbitmq-my" target="8" />
+      <module name="simple-consumer" target="8" />
+      <module name="simple-producer" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="message" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="dead-letter" options="-parameters" />
+      <module name="dlx" options="-parameters" />
+      <module name="fanout-exchange" options="-parameters" />
+      <module name="many-comsumer" options="-parameters" />
       <module name="rabbitmq-my" options="-parameters" />
-      <module name="rabbitmy-comsumer" options="-parameters" />
-      <module name="rabbitmy-producer" options="-parameters" />
+      <module name="simple-consumer" options="-parameters" />
+      <module name="simple-producer" options="-parameters" />
     </option>
   </component>
 </project>
